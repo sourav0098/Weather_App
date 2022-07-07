@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 100px;
+  background-color: royalblue;
+  color: white;
+}
+ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+ul li {
+  margin: 0 12px;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 100px;
+}
+.main-container h2 {
+  font-size: 2rem;
+  margin-bottom: 6px;
+}
+.main-container p {
+  margin-bottom: 20px;
+}
+button {
+  outline: none;
+  cursor: pointer;
+  background-color: royalblue;
+  border: 0;
+  padding: 11px 16px;
+  border-radius: 7px;
+}
+button a {
+  text-decoration: none;
+  color: white;
+}
+img {
+  height: 340px;
+}
+.footer {
+  margin-top: auto;
+  padding: 12px;
+  color: white;
+  background-color: royalblue;
+  text-align: center;
+}
+.temp-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 35px;
+}
+.temp-container h2 {
+  margin-bottom: 23px;
+}
+
+.temp-container input[type="text"] {
+  padding: 6px 4px;
+  width: 280px;
+  margin-right: 8px;
+}
+.temp-container input[type="button"] {
+  cursor: pointer;
+  background-color: royalblue;
+  outline: none;
+  border: none;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 6px;
+}
+#error {
+  font-size: 12px;
+  color: red;
+  font-style: italic;
+  width: 355px;
+  margin-top: 4px;
+}
+.temp-info {
+  display: flex;
+  flex-direction: column;
+  width: 26%;
+  height: 300px;
+  margin: 0 auto;
+  background-color: #6d38a4;
+  color: #af84db;
+  padding: 15px 24px;
+  border-radius: 12px;
+}
+.temp-info .city {
+  font-size: 2rem;
+  margin-bottom: 14px;
+}
+.temp-info .temp {
+  text-align: center;
+  font-size: 3rem;
+}
+.temp-info .weather-condition {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+}
+.min-max-temp,
+.humidity {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.error-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  overflow: hidden;
+}
+.error-container h2 {
+  font-size: 2rem;
+  margin-bottom: 7px;
+}

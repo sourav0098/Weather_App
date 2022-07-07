@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>headlinks}}
+</head>
+
+<body>
+    {{>nav}}
+    <!-- Header -->
+    <div class="temp-container">
+        <h2>Enter the city to check temperature</h2>
+        <form action="">
+            <input type="text" id="city" placeholder="Enter the city name">
+            <input type="button" value="Search" id="search">
+        </form>
+        <p id="error"></p>
+    </div>
+    <div class="temp-info-container">
+        
+    </div>
+    {{>footer}}
+    <script src="/js/index.js"></script>
+</body>
+
+
+</html>
